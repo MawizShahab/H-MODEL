@@ -359,7 +359,7 @@ body {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 370px) {
   .main__title,
   .regular__title {
     font-size: 1.8rem;
