@@ -29,16 +29,17 @@ html {
 
 body {
   /* font-family: "Lato", sans-serif; */
+  background-color: #000;
   background-image: url(../images/bg-main.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: top center;
   color: var(--color-body);
   font-family: lato, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
   overflow-x: hidden;
-  padding: 12rem 2.2rem;
+  padding: 8rem 2.2rem 14rem 2.2rem;
 }
 
 .hero-section {
@@ -355,5 +356,21 @@ body {
   .contest__title {
     font-size: 1.35rem;
     /* white-space: nowrap; */
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main__title,
+  .regular__title {
+    font-size: 1.8rem;
+  }
+
+  .contest__title {
+    font-size: 1.28rem;
+    /* white-space: nowrap; */
+  }
+
+  body {
+    background-size: contain;
   }
 }
