@@ -418,7 +418,7 @@ body {
 @media screen and (min-width: 371px) and (max-width: 400px) {
   .main__title,
   .regular__title {
-    font-size: 1.13rem !important;
+    font-size: 2rem !important;
   }
 
   .contest__title {
