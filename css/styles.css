@@ -395,6 +395,27 @@ body {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 339px) {
+  .main__title,
+  .regular__title {
+    font-size: 1.52rem;
+  }
+
+  .contest__title {
+    font-size: 1.10rem;
+    /* white-space: nowrap; */
+  }
+
+  .fancy {
+    font-size: 1.1rem;
+  }
+
+  .hero-section {
+    padding-bottom: 40.45rem;
+  }
+}
+
+
 @media screen and (min-width: 769px) {
   body {
     max-width: 400px;
