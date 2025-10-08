@@ -415,10 +415,10 @@ body {
   }
 }
 
-@media screen and (min-width: 371px) and (max-width: 390px) {
+@media screen and (min-width: 371px) and (max-width: 400px) {
   .main__title,
   .regular__title {
-    font-size: 2.13rem;
+    font-size: 2.13rem !important;
   }
 
   .contest__title {
