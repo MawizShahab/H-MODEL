@@ -374,3 +374,39 @@ body {
     background-size: contain;
   }
 }
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .main__title,
+  .regular__title {
+    font-size: 1.7rem;
+  }
+
+  .contest__title {
+    font-size: 1.18rem;
+    /* white-space: nowrap; */
+  }
+
+  .fancy {
+    font-size: 1.1rem;
+  }
+
+  .hero-section {
+    padding-bottom: 40.45rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .main__title,
+  .regular__title {
+    font-size: 2.23rem;
+  }
+
+  .contest__title {
+    font-size: 1.45rem;
+  }
+}
